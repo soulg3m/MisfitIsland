@@ -1,19 +1,35 @@
-.nav {
-    height: 50px;
+/*Code for every page */
+
+/*NAVIGATION BAR*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
     background-color: red;
 }
 
-.nav li {
+li {
     float: left;
 }
 
-.nav li a {
+li a {
     display: block;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+/* NOT SURE WHAT THIS IS YET*/
 .right {
     float: right;
 }
@@ -22,6 +38,76 @@
     text-align: center;
 }
 
+/* This code is for the footer */
+.footer
+{
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+.foot-grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: aqua;
+    padding: 10px;
+    width: 500px;
+    margin: auto;
+}
+
+.foot-grid-item {
+    background-color: gray;
+    border: 1px solid blue;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+/*HOME.PHP*/
+
+/*this is for the php code gallary*/
+.photo
+  {
+    width: 30%;
+    float: left;
+    margin: 10px;
+    background: #fff;
+    /*padding: 20px;*/
+    box-sizing: border-box;
+  }
+
+  .photo img
+  {
+    width: 100%;
+    height: auto;
+
+  }
+
+/*app promotion section*/
+
+.container
+{
+  text-align: center;
+  padding: 15px;
+}
+.left-div
+{
+     display: inline-block;
+     max-width: 300px;
+     vertical-align: top;
+     background-color: grey;
+}
+.right-div
+{
+     display: inline-block;
+     max-width: 300px;
+     background-color: grey;
+}
+
+/*SHOP.PHP*/
+
+/* grid seperation for shop items*/
 .shop-grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -56,19 +142,13 @@
     text-align: center;
 }
 
-.foot-grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    background-color: aqua;
-    padding: 10px;
-    width: 500px;
-    margin: auto;
-}
 
-.foot-grid-item {
-    background-color: gray;
-    border: 1px solid blue;
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-}
+/*ABOUTUS.PHP*/
+
+/*EVENTS.PHP*/
+
+/*SHOPPINGCART.PHP*/
+
+/*LOGIN.PHP*/
+
+/*REGISTER.PHP*/
