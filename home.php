@@ -5,6 +5,7 @@
         <title>Misfit Island</title>
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/styles.css">
+        <script src="js/dom.js"></script>
     </head>
     <body>
 
@@ -21,10 +22,6 @@
               </ul>
           </div>
       </div>
-
-        <div class="hero">
-            <h1 class="center">Hero Image</h1>
-        </div>
 
 
         <div class="container">
