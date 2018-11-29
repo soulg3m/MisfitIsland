@@ -110,20 +110,60 @@ li a:hover {
 /* grid seperation for shop items*/
 .shop-grid-container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: repeat(4, 1fr); /*CHANGED TO FR to keep columns from being manipulated by content inside*/
     background-color: aqua;
     padding: 10px;
-    width: 100%;
     margin: auto;
+    max-width: 100%; /*ADDED to stop overflow*/
+    box-sizing: border-box;
+    grid-gap: 2px; 
 }
 
-.shop-grid-item {
+.shop-grid-item-filter {
     background-color: gray;
     border: 1px solid blue;
     padding: 20px;
     font-size: 30px;
     text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
 }
+
+.shop-grid-item-main {
+    background-color: gray;
+    border: 1px solid blue;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+
+.actual-item {
+    border: 1px solid black;
+    display: inline-block;
+    padding: 5px;
+    min-height: 100px;
+    min-width: 200px;
+    margin:10px;
+}
+
+.item-content {
+    padding: 2px;
+}
+
+.item-content p {
+    color: blue;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.item-content img {
+    width: 90%;
+    height: auto;
+    padding: 5px;
+}
+/* END OF SHOPPING CONTAINER FOR SHOP.PHP */
 
 .deals-grid-container {
     display: grid;
