@@ -187,6 +187,37 @@ li a:hover {
 
 /*EVENTS.PHP*/
 
+
+.outer-div
+{
+  padding: 30px;
+}
+
+.outer-div img
+{
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 500px;
+   height:auto;
+   padding: 5px;
+}
+
+.inner-div
+{
+  margin: 0 auto;
+  max-width: 700px;
+  height: 100px;
+  background-color: #ccc;
+  border-radius: 3px;
+}
+
+.inner-div p
+{
+  padding: 5px;
+}
+
+
 /*SHOPPINGCART.PHP*/
 
 /*LOGIN.PHP*/
