@@ -5,7 +5,7 @@
         <title>Misfit Island</title>
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/styles.css">
-        
+
         <div class="header">
             <div class="nav">
                 <ul id="nav">
@@ -21,23 +21,34 @@
         </div>
     </head>
     <body>
-        Events
-        <div class="hero">
-            <h1 class="center">Hero Image</h1>
+
+        <div class="container">
+          <h1>Events</h1>
+
+        <div class="outer-div">
+          <img src="https://students.cah.ucf.edu/~az645191/dig3134/Group%20Project/img/Grand-Opening-Banner.jpg"></img>
+          <div class="inner-div">
+            <p>Lorem ipsum dolor amet cliche tote bag meggings brooklyn tumeric blue bottle trust fund quinoa narwhal. Helvetica sustainable seitan biodiesel, keffiyeh tousled la croix pug everyday carry air plant schlitz pabst typewriter asymmetrical. Pork belly humblebrag iceland, gentrify YOLO tacos church-key. Gochujang man braid coloring book pop-up ugh.</p>
+          </div>
         </div>
-        <div class="deals">
-            <div class="deals-grid-container">
-                <div class="deals-grid-item"></div>
-                <div class="deals-grid-item"></div>
-                <div class="deals-grid-item"></div>
-                <div class="deals-grid-item"></div>
-                <div class="deals-grid-item"></div>
-                <div class="deals-grid-item"></div>
-            </div>
+
+
+        <div class="outer-div">
+          <img src="https://students.cah.ucf.edu/~az645191/dig3134/Group%20Project/img/Grand-Opening-Banner.jpg"></img>
+          <div class="inner-div">
+            <p>Lorem ipsum dolor amet cliche tote bag meggings brooklyn tumeric blue bottle trust fund quinoa narwhal. Helvetica sustainable seitan biodiesel, keffiyeh tousled la croix pug everyday carry air plant schlitz pabst typewriter asymmetrical. Pork belly humblebrag iceland, gentrify YOLO tacos church-key. Gochujang man braid coloring book pop-up ugh.</p>
+          </div>
         </div>
-        <div class="app">
-            <p class="center">We have an app!</p>
+
+        <div class="outer-div">
+          <img src="https://students.cah.ucf.edu/~az645191/dig3134/Group%20Project/img/Grand-Opening-Banner.jpg"></img>
+          <div class="inner-div">
+            <p>Lorem ipsum dolor amet cliche tote bag meggings brooklyn tumeric blue bottle trust fund quinoa narwhal. Helvetica sustainable seitan biodiesel, keffiyeh tousled la croix pug everyday carry air plant schlitz pabst typewriter asymmetrical. Pork belly humblebrag iceland, gentrify YOLO tacos church-key. Gochujang man braid coloring book pop-up ugh.</p>
+          </div>
         </div>
+
+</div>
+
         <div class="footer">
             <div class="foot-grid-container">
                 <div class="foot-grid-item">Header Links</div>
@@ -45,8 +56,10 @@
                 <div class="foot-grid-item">Newsletter</div>
             </div>
         </div>
+
+
     </body>
     <footer>
-        
+
     </footer>
 </html>
