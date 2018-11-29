@@ -21,10 +21,48 @@
         </div>
     </head>
     <body>
-        Shop
+        <h1 class="center">Shop</h1>
         <div class="shop-grid-container">
-            <div class="shop-grid-item">Filter</div>
-            <div class="shop-grid-item">Main Content</div>
+            <div class="shop-grid-item-filter">Filter</div>
+            <div class="shop-grid-item-main">
+                <h1 class="center">Main Content</h1><br>
+                <div class="actual-item">
+                    <div class="item-content">
+                        <img src="#"/><p>^IMAGE HERE</p><br>
+                        <p>//$PRICE HERE</p>
+                    </div>
+                </div>
+                <div class="actual-item">
+                    <div class="item-content">
+                        <img src="#"/><p>^IMAGE HERE</p><br>
+                        <p>//$PRICE HERE</p>
+                    </div>
+                </div>
+                <div class="actual-item">
+                    <div class="item-content">
+                        <img src="#"/><p>^IMAGE HERE</p><br>
+                        <p>//$PRICE HERE</p>
+                    </div>
+                </div>
+                <div class="actual-item">
+                    <div class="item-content">
+                        <img src="#"/><p>^IMAGE HERE</p><br>
+                        <p>//$PRICE HERE</p>
+                    </div>
+                </div>
+                <div class="actual-item">
+                    <div class="item-content">
+                        <img src="#"/><p>^IMAGE HERE</p><br>
+                        <p>//$PRICE HERE</p>
+                    </div>
+                </div>
+                <div class="actual-item">
+                    <div class="item-content">
+                        <img src="#"/><p>^IMAGE HERE</p><br>
+                        <p>//$PRICE HERE</p>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="footer">
             <div class="foot-grid-container">
