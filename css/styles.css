@@ -327,6 +327,84 @@ color: white;
 
 
 /*ABOUTUS.PHP*/
+#hero-container {
+    text-align: center;
+    max-width: 100%;
+    padding: 30px;
+}
+.hero-size-wrapper {
+    max-width: 100%;
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: center;
+}
+.hero-img {
+    /******* CHANGE OUT PLACEHOLDER IMAGE WITH REAL IMAGE */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("chain-close-up-display-1036857.jpg");
+    max-width: 100%;
+    min-height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 10px;
+}
+.hero-txt {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    
+}
+.hero-img h1 {
+    color: white;
+    size: 40px;
+    padding: 10px;
+       
+}
+.hero-img p {
+    color: white;
+    padding: 10px;
+}
+
+#about-container {
+    text-align: center;
+    max-width: 100%;
+    padding: 30px;
+}
+#about-container h2 {
+    color: #462255;
+}
+#about-container p {
+    color: #462255;
+}
+.about-threenested {
+    padding: 20px;
+    margin: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 25px;
+}
+.about-threenested div {
+    border: 1px solid #93E1D8;
+    border-radius: 3px;
+    padding: 20px;
+    margin: 0px;
+}
+.about-inner {
+    padding: 10px;
+    display: block;
+}
+.about-inner h3 {
+    color: #462255;
+}
+.about-inner img {
+    background: #93E1D8;;
+    border-radius: 50px;
+}
+/* END OF ABOUTUS.PHP */
 
 /*EVENTS.PHP*/
 
