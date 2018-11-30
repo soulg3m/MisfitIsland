@@ -21,6 +21,7 @@
                 <li style="float:right"><a href="cart.php">Shopping Cart</a></li>
             </ul>
         </div>
+        <!-- ********** HERO IMAGE URL IS IN THE CSS, *MUST BE KEPT IN THE SAME FOLDER AS STYLES.CSS* -->
         <div id="hero-container">
             <div class="hero-size-wrapper">
                 <div class="hero-img">
