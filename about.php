@@ -21,16 +21,39 @@
               <li style="float:right"><a href="cart.php">Shopping Cart</a></li>
           </ul>
       </div>
-
-
-
-
-      
-
-        <div class="hero">
-            <h1 class="center">Hero Image</h1>
+        <!-- Start of Hero section and wall of text -->
+        <div id="hero-container">
+            <div class="hero-size-wrapper">
+                <div class="hero-img">
+                    <div class="hero-txt">
+                        <h1>Hero H1 Text Goes Here</h1>
+                        <p>hero p text goes here.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-
+        <div id="about-container">
+            <h2>H2 Text Specific to About.php about-container id</h2>
+            <p>p text specific to about.php about-container id</p>
+            <div class="about-threenested">
+                <div class="about-inner">
+                    <img src="images/icons8-us-dollar-64.png" alt="money sign"/>
+                    <h3>H3 text for about-inner</h3>
+                    <p>p text for about-inner</p>
+                </div>
+                <div class="about-inner">
+                    <img src="images/icons8-recycle-64.png" alt="recycle"/>
+                    <h3>H3 text for about-inner</h3>
+                    <p>p text for about-inner</p>
+                </div>
+                <div class="about-inner">
+                    <img src="images/icons8-price-tag-64.png" alt="sell"/>
+                    <h3>H3 text for about-inner</h3>
+                    <p>p text for about-inner</p>
+                </div>
+            </div>
+        </div>
+        <!-- End of Hero Section and wall of text -->
         <div class="deals">
             <div class="deals-grid-container">
                 <div class="deals-grid-item"></div>
