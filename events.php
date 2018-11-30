@@ -22,7 +22,7 @@
       </div>
 
         <div class="container">
-          <h1>Events</h1>
+          <img style="float:center"src="img/event.png"></img>
 
         <div class="outer-div">
           <img src="https://students.cah.ucf.edu/~az645191/dig3134/Group%20Project/img/Grand-Opening-Banner.jpg"></img>
@@ -45,36 +45,43 @@
             <p>Lorem ipsum dolor amet cliche tote bag meggings brooklyn tumeric blue bottle trust fund quinoa narwhal. Helvetica sustainable seitan biodiesel, keffiyeh tousled la croix pug everyday carry air plant schlitz pabst typewriter asymmetrical. Pork belly humblebrag iceland, gentrify YOLO tacos church-key. Gochujang man braid coloring book pop-up ugh.</p>
           </div>
         </div>
+
+        <div class="outer-div">
+          <img src="https://students.cah.ucf.edu/~az645191/dig3134/Group%20Project/img/Grand-Opening-Banner.jpg"></img>
+          <div class="inner-div">
+            <p>Lorem ipsum dolor amet cliche tote bag meggings brooklyn tumeric blue bottle trust fund quinoa narwhal. Helvetica sustainable seitan biodiesel, keffiyeh tousled la croix pug everyday carry air plant schlitz pabst typewriter asymmetrical. Pork belly humblebrag iceland, gentrify YOLO tacos church-key. Gochujang man braid coloring book pop-up ugh.</p>
+          </div>
+        </div>
+
 
 </div>
 
 <div class="footer">
   <div class="row">
       <div class="column">
-        <a href="url">Contact Us</a>
+        <a href="url"><span class="flink">Contact Us</span></a>
         <br>
-        <a href="url">Home</a>
+        <a href="url"><span class="flink">Home</span></a>
         <br>
-        <a href="url">Shop</a>
+        <a href="url"><span class="flink">Shop</span></a>
         <br>
-        <a href="url">Events</a>
+        <a href="url"><span class="flink">Events</span></a>
         <br>
       </div>
       <div class="column">
+        <p>Copyright © 2018 MisfitIsland<p>
+          <br>
         <a href="#" class="fa fa-twitter"></a>
         <a href="#" class="fa fa-youtube"></a>
         <a href="#" class="fa fa-instagram"></a>
       </div>
       <div class="column">
         <p>Wanna keep up with our blog?</p><br>
-        <a href="url">MisfitIsland Blog</a>
+        <a href="url"><span class="flink">MisfitIsland Blog</span></a>
       </div>
   </div>
 </div>
 
 
     </body>
-    <footer>
-
-    </footer>
 </html>

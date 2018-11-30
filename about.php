@@ -22,6 +22,11 @@
           </ul>
       </div>
 
+
+
+
+      
+
         <div class="hero">
             <h1 class="center">Hero Image</h1>
         </div>
@@ -40,32 +45,36 @@
             <p class="center">We have an app!</p>
         </div>
 
+
+
+
+
+
         <div class="footer">
           <div class="row">
               <div class="column">
-                <a href="url">Contact Us</a>
+                <a href="url"><span class="flink">Contact Us</span></a>
                 <br>
-                <a href="url">Home</a>
+                <a href="url"><span class="flink">Home</span></a>
                 <br>
-                <a href="url">Shop</a>
+                <a href="url"><span class="flink">Shop</span></a>
                 <br>
-                <a href="url">Events</a>
+                <a href="url"><span class="flink">Events</span></a>
                 <br>
               </div>
               <div class="column">
+                <p>Copyright © 2018 MisfitIsland<p>
+                  <br>
                 <a href="#" class="fa fa-twitter"></a>
                 <a href="#" class="fa fa-youtube"></a>
                 <a href="#" class="fa fa-instagram"></a>
               </div>
               <div class="column">
                 <p>Wanna keep up with our blog?</p><br>
-                <a href="url">MisfitIsland Blog</a>
+                <a href="url"><span class="flink">MisfitIsland Blog</span></a>
               </div>
           </div>
         </div>
 
     </body>
-    <footer>
-
-    </footer>
 </html>

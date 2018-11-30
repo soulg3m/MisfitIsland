@@ -156,7 +156,7 @@ color: white;
 
 .photo
   {
-    width: 30%;
+    width: 40%;
     float: left;
     margin: 10px;
     background: #fff;
@@ -167,7 +167,7 @@ color: white;
   .photo img
   {
     width: 200px;
-    height: 450px;
+    height: 350px;
 
   }
 
@@ -184,74 +184,55 @@ color: white;
   width: 250px;
   height: 200px;
 }
-
-
-.outer
+.left-div
 {
-  padding: 15px;
+     display: inline-block;
+     max-width: 300px;
+     vertical-align: top;
+     padding: 10px;
 }
 
-.outer p
+.left-div p
 {
-    font-size: 25px;
+  padding-top:80px;
+  padding-bottom:80px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 25px;
+}
+.right-div
+{
+     display: inline-block;
+     max-width: 300px;
+     background-color: #93E1D8;
+     padding: 10px;
 }
 
-.inner
+.right-div p
 {
-  margin: 0 auto;
-  max-width: 700px;
-  height: auto;
-  background-color: #93E1D8;
-  border-radius: 3px;
-  padding: 10px;
+  padding-top:80px;
+  padding-bottom:80px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-.bold
-{
-  font-weight: bold;
-}
+/*SHOP.PHP*/
 
-.rightb
-{
-    font-size: 25px;
-    font-weight: bold;
-}
-
-
-
-/*NEW SHOP CODE*/
-
-
-
-
-
-
-/*END OF NEW SHOP CODE*/
-
-
-
-
-
-
-
-
-/* OLD SHOP.PHP CODE AS BACKUP*/
-
-/* grid seperation for shop items
-/.shop-grid-container {
+/* grid seperation for shop items*/
+.shop-grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr); /*CHANGED TO FR to keep columns from being manipulated by content inside*/
-  /*  background-color: aqua;
+  /*  background-color: aqua;*/
     padding: 10px;
     margin: auto;
-    max-width: 100%; /*ADDED to stop overflow
+    max-width: 100%; /*ADDED to stop overflow*/
     box-sizing: border-box;
     grid-gap: 2px;
 }
 
 .shop-grid-item-filter {
     background-color: #93E1D8;
-  /*  border: 1px solid blue;
+  /*  border: 1px solid blue; */
     padding: 20px;
     font-size: 30px;
     text-align: center;
@@ -268,7 +249,7 @@ color: white;
 
 .shop-grid-item-main {
     background-color: #93E1D8;
-  /*   border: 1px solid blue;
+  /*   border: 1px solid blue; */
     padding: 20px;
     font-size: 30px;
     text-align: center;
@@ -345,7 +326,6 @@ color: white;
    height:auto;
    padding: 5px;
 }
-
 
 .inner-div
 {
