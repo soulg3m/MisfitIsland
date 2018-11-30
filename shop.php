@@ -22,6 +22,7 @@
               <li style="float:right"><a href="cart.php">Shopping Cart</a></li>
           </ul>
       </div>
+        
 
 
 <!--  OLD SHOP CODE FOR BACKUP
@@ -87,7 +88,61 @@
 
             </div>
         </div>  -->
-
+        <!--START OF NEW SHOP.PHP WITH JAVA SORTING -->
+        <div class="shop-container">
+            <h1 class="center">Shop</h1>
+            <div class="shop-grid-container">
+                <div id="shop-grid-item-filter">
+                    <div id="filterContainer">
+                        <h2>Sort By:</h2>
+                        <button class="sortbtn active" onlcick="filterSelection('all')"> Show All</button>
+                        <button class="sortbtn" onlick="filterSelection('color')"> Color</button>
+                        <button class="sortbtn" onlick="filterSelection('size')"> Size</button>
+                        <button class="sortbtn" onlick="filterSelection('style')"> Style</button>
+                        <button class="sortbtn" onlick="filterSelection('brand')"> Brand</button>
+                    </div>
+                </div>
+                <div id="shop-grid-item-main">
+                    <div class="actualItem color">
+                        <div class="item-content">
+                            <img src="#"/><p>^IMAGE HERE</p><br>
+                            <p>//$PRICE HERE</p>
+                        </div>
+                    </div>
+                    <div class="actualItem color">
+                        <div class="item-content">
+                            <img src="#"/><p>^IMAGE HERE</p><br>
+                            <p>//$PRICE HERE</p>
+                        </div>
+                    </div>
+                    <div class="actualItem style">
+                        <div class="item-content">
+                            <img src="#"/><p>^IMAGE HERE</p><br>
+                            <p>//$PRICE HERE</p>
+                        </div>
+                    </div>
+                    <div class="actualItem brand">
+                        <div class="item-content">
+                            <img src="#"/><p>^IMAGE HERE</p><br>
+                            <p>//$PRICE HERE</p>
+                        </div>
+                    </div>
+                    <div class="actualItem size">
+                        <div class="item-content">
+                            <img src="#"/><p>^IMAGE HERE</p><br>
+                            <p>//$PRICE HERE</p>
+                        </div>
+                    </div>
+                    <div class="actualItem brand">
+                        <div class="item-content">
+                            <img src="#"/><p>^IMAGE HERE</p><br>
+                            <p>//$PRICE HERE</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--END OF NEW SHOP.PHP WITH JAVA SORTING -->
         <div class="footer">
           <div class="row">
               <div class="column">
@@ -113,6 +168,7 @@
               </div>
           </div>
         </div>
-
+    <!-- JAVASCRIPT CODE FOR FILTER/SORT BY FUNCTION -->
+     <script src="js/filter.js" type="text/javascript"></script>
     </body>
 </html>
